@@ -6,11 +6,11 @@ import {
   HomeLayout,
   Register,
   Notice,
-  Courses,
   Faculties,
   Result,
   AboutUs,
 } from "./Pages";
+import Classes from "./Pages/Classes";
 
 const router = createBrowserRouter([
   {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
         errorElement: <Error />,
       },
       {
-        path: "courses",
-        element: <Courses />,
+        path: "classes",
+        element: <Classes/>,
         errorElement: <Error />,
       },
       {
