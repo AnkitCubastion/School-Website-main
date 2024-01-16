@@ -14,7 +14,7 @@ const NavBar = () => {
             to="/"
             className="navbar-brand d-none d-lg-flex btn btn-success text-3xl"
           >
-            FakeDB
+            E-School
           </NavLink>
 
           {/* Dropdown Toggle Button*/}
