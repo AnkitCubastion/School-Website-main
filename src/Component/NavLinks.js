@@ -7,6 +7,7 @@ const links = [
   { id: 3, url: "/courses", text: "Courses" },
   { id: 4, url: "/results", text: "Result" },
   { id: 5, url: "/about", text: "AboutUs" },
+  { id: 6, url: "/notices", text: "Notices" },
 ];
 
 const NavLinks = () => {
@@ -16,7 +17,10 @@ const NavLinks = () => {
         const { id, url, text } = link;
         return (
           <li key={id}>
-            <NavLink to={url} className="text-capitalize text-success navbar-text">
+            <NavLink
+              to={url}
+              className="text-capitalize text-success navbar-text"
+            >
               {text}
             </NavLink>
           </li>
