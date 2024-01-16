@@ -72,4 +72,8 @@ function App() {
 
 export default App;
 
+<<<<<<< HEAD
 // Test comment on main branch
+=======
+// Test Comment
+>>>>>>> 4cf79c371342290384f2463174cd3356d04a4312
