@@ -9,7 +9,12 @@
   ],
   "student": [],
   "teacher": [],
-  "class": [],
+  "class": [
+    {
+      "id":6,
+      "courseIds":[],
+      "studentIds":[]
+  ],
   "courses": [],
   "notices": [],
   "founders": [],
