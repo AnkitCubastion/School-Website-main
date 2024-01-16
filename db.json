@@ -7,7 +7,158 @@
       "role": "Admin"
     }
   ],
-  "student": [],
+  "student": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 15,
+      "grade": "6th",
+      "classId": 6,
+      "userId": 1,
+      "marks": [],
+      "image": "https://thumbs.dreamstime.com/b/smiling-boy-student-high-school-portrait-33063142.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "age": 14,
+      "grade": "6th",
+      "classId": 6,
+      "userId": 2,
+      "marks": [],
+      "image": "https://www.womenio.com/wp-content/uploads/2021/09/Being-Single-in-High-School.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "age": 16,
+      "grade": "6th",
+      "classId": 6,
+      "userId": 3,
+      "marks": [],
+      "image": "https://image1.masterfile.com/getImage/NjMwLTA3MDcxNzg1ZW4uMDAwMDAwMDA=AK8I9d/630-07071785en_Masterfile.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emma Brown",
+      "age": 15,
+      "grade": "7th",
+      "classId": 7,
+      "userId": 4,
+      "marks": [],
+      "image": "https://timesofindia.indiatimes.com/photo/104889832/104889832.jpg"
+    },
+    {
+      "id": 5,
+      "name": "David White",
+      "age": 14,
+      "grade": "7th",
+      "classId": 7,
+      "userId": 5,
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZYem5bgC6sCgriwlG8FeIvtkY91t3hDWUA&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Miller",
+      "age": 16,
+      "grade": "7th",
+      "classId": 7,
+      "userId": 6,
+      "marks": [],
+      "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2023/07/Joseph-Bui-yoder-state-takeovers_24-scaled.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
+      "id": 7,
+      "name": "Oliver Davis",
+      "age": 15,
+      "grade": "8th",
+      "classId": 8,
+      "userId": 7,
+      "marks": [],
+      "image": "https://qph.cf2.quoracdn.net/main-thumb-147481624-200-agklstkxcftpsqxmoaqaqjgonwgxjfbc.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Ava Wilson",
+      "age": 14,
+      "grade": "8th",
+      "classId": 8,
+      "userId": 8,
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCaGwXu8RB8fOK-Q3SCgFlP_fDcqFd2KjKg&usqp=CAU"
+    },
+    {
+      "id": 9,
+      "name": "Ethan Clark",
+      "age": 16,
+      "grade": "8th",
+      "classId": 8,
+      "userId": 9,
+      "marks": [],
+      "image": "https://thumbs.dreamstime.com/z/high-school-student-hallway-classmates-background-33015496.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Liam Taylor",
+      "age": 15,
+      "grade": "9th",
+      "classId": 9,
+      "userId": 10,
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4KG_-2hP4fo2sBGucPHOrBtfuNaLTP8YBw&usqp=CAU"
+    },
+    {
+      "id": 11,
+      "name": "Mia Moore",
+      "age": 14,
+      "grade": "9th",
+      "classId": 9,
+      "userId": 11,
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusik0-9V23zamcjmo1A5dHTjAR9g1-16mSQ&usqp=CAU"
+    },
+    {
+      "id": 12,
+      "name": "Noah Davis",
+      "age": 16,
+      "grade": "9th",
+      "classId": 9,
+      "userId": 12,
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9qerW2zgDX4T1jL7XMkSo4siMDb35nANLg&usqp=CAU"
+    },
+    {
+      "id": 13,
+      "name": "Isabella Jones",
+      "age": 15,
+      "grade": "10th",
+      "classId": 10,
+      "userId": 13,
+      "marks": [],
+      "image": "https://english.mathrubhumi.com/image/contentid/policy:1.8514619:1691127392/Plus%20one%20students%20(1).jpg?$p=a0f26b3&f=1x1&w=1080&q=0.8"
+    },
+    {
+      "id": 14,
+      "name": "Elijah Brown",
+      "age": 14,
+      "grade": "10th",
+      "classId": 10,
+      "userId": 14,
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwSFayKUQpvewFrIrsYrj2AEDyXJChO4mKQ&usqp=CAU"
+    },
+    {
+      "id": 15,
+      "name": "Avery Miller",
+      "age": 16,
+      "grade": "10th",
+      "classId": 10,
+      "userId": 15,
+      "marks": [],
+      "image": "https://i.guim.co.uk/img/media/efd4da1dc87c468315029c7d8516d743080012d1/0_48_2160_1608/master/2160.jpg?width=465&dpr=1&s=none"
+    }
+  ],
   "teacher": [
     {
       "id": "PrXrTPcFbVdFHu2SOMzlH",
@@ -160,8 +311,130 @@
       "phone": "+1 (456) 789-0123"
     }
   ],
-  "class": [],
-  "courses": [],
+  "class": [
+    {
+      "id": 6,
+      "name": "6th Class",
+      "courseIDs": [101, 102, 103],
+      "studentIDs": [1, 2, 3]
+    },
+    {
+      "id": 7,
+      "name": "7th Class",
+      "courseIDs": [104, 105, 106],
+      "studentIDs": [4, 5, 6]
+    },
+    {
+      "id": 8,
+      "name": "8th Class",
+      "courseIDs": [107, 108, 109],
+      "studentIDs": [7, 8, 9]
+    },
+    {
+      "id": 9,
+      "name": "9th Class",
+      "courseIDs": [110, 111, 112],
+      "studentIDs": [10, 11, 12]
+    },
+    {
+      "id": 10,
+      "name": "10th Class",
+      "courseIDs": [113, 114, 115],
+      "studentIDs": [13, 14, 15]
+    }
+  ],
+  "courses": [
+    {
+      "id": 101,
+      "name": "Mathematics",
+      "classId": 6,
+      "teacherId": 101
+    },
+    {
+      "id": 102,
+      "name": "Science",
+      "classId": 6,
+      "teacherId": 102
+    },
+    {
+      "id": 103,
+      "name": "English",
+      "classId": 6,
+      "teacherId": 103
+    },
+    {
+      "id": 104,
+      "name": "History",
+      "classId": 7,
+      "teacherId": 104
+    },
+    {
+      "id": 105,
+      "name": "Physics",
+      "classId": 7,
+      "teacherId": 105
+    },
+    {
+      "id": 106,
+      "name": "Chemistry",
+      "classId": 7,
+      "teacherId": 106
+    },
+    {
+      "id": 107,
+      "name": "Biology",
+      "classId": 8,
+      "teacherId": 107
+    },
+    {
+      "id": 108,
+      "name": "Literature",
+      "classId": 8,
+      "teacherId": 108
+    },
+    {
+      "id": 109,
+      "name": "Geography",
+      "classId": 8,
+      "teacherId": 109
+    },
+    {
+      "id": 110,
+      "name": "Mathematics",
+      "classId": 9,
+      "teacherId": 110
+    },
+    {
+      "id": 111,
+      "name": "Computer Science",
+      "classId": 9,
+      "teacherId": 111
+    },
+    {
+      "id": 112,
+      "name": "Art",
+      "classId": 9,
+      "teacherId": 112
+    },
+    {
+      "id": 113,
+      "name": "History",
+      "classId": 10,
+      "teacherId": 113
+    },
+    {
+      "id": 114,
+      "name": "Economics",
+      "classId": 10,
+      "teacherId": 114
+    },
+    {
+      "id": 115,
+      "name": "Chemistry",
+      "classId": 10,
+      "teacherId": 115
+    }
+  ],
   "notices": [],
   "founders": [],
   "events": [],
