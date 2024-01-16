@@ -8,3 +8,4 @@ export {default as Courses} from "./Courses";
 export {default as Faculties} from "./Faculties";
 export {default as Result} from "./Result";
 export {default as AboutUs} from "./AboutUs";
+export {default as SingleFaculty} from "./SingleFaculty";
