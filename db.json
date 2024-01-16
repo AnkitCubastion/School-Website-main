@@ -8,14 +8,159 @@
     }
   ],
   "student": [],
-  "teacher": [],
-  "class": [
+  "teacher": [
     {
-      "id":6,
-      "courseIds":[],
-      "studentIds":[]
+      "id": "PrXrTPcFbVdFHu2SOMzlH",
+      "courseId": 103,
+      "classId": 6,
+      "name": "John Smith",
+      "subject": "Mathematics",
+      "image": "https://i.imgur.com/LDOO4Qs.jpg",
+      "email": "john.smith@example.com",
+      "phone": "+1 (123) 456-7890"
+    },
+    {
+      "id": "Qb1MCGM8e6c3Uno32yZn7",
+      "courseId": 102,
+      "classId": 7,
+      "name": "Alice Johnson",
+      "subject": "English",
+      "image": "https://i.imgur.com/DTfowdu.jpg",
+      "email": "alice.johnson@example.com",
+      "phone": "+1 (987) 654-3210"
+    },
+    {
+      "id": "PBBtLqg-7EEVanpIn5r5h",
+      "name": "Michelle Rodriguez",
+      "courseId": 104,
+      "classId": 8,
+      "subject": "Science",
+      "image": "https://i.imgur.com/yhW6Yw1.jpg",
+      "email": "michelle.rodriguez@example.com",
+      "phone": "+1 (555) 123-4567"
+    },
+    {
+      "id": "TymYqvxLU3NGyXh6_pQcp",
+      "name": "Ervin Davis",
+      "courseId": 101,
+      "classId": 9,
+      "subject": "Hindi",
+      "image": "https://avatars.mds.yandex.net/i?id=2f942270d036dd442f20f4d10aa75042291363c3-11005614-images-thumbs&n=13",
+      "email": "ervin.davis@example.com",
+      "phone": "+1 (456) 789-0123"
+    },
+    {
+      "id": "-CAfDHugwFSyiPyXfhRMi",
+      "name": "David Thompson",
+      "courseId": 104,
+      "classId": 10,
+      "subject": "Science",
+      "image": "https://images.pexels.com/photos/3778212/pexels-photo-3778212.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "david.thompson@example.com",
+      "phone": "+1 (321) 654-0987"
+    },
+    {
+      "id": "IcrJvyhVSGaV7CM9oBUIt",
+      "name": "Alex White",
+      "courseId": 103,
+      "classId": 6,
+      "subject": "Mathematics",
+      "image": "https://images.pexels.com/photos/4947563/pexels-photo-4947563.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "alex.white@example.com",
+      "phone": "+1 (789) 012-3456"
+    },
+    {
+      "id": "vO7wRwV9J603OOZPWe8pf",
+      "name": "Robert Miller",
+      "courseId": 102,
+      "classId": 7,
+      "subject": "English",
+      "image": "https://images.pexels.com/photos/7537828/pexels-photo-7537828.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "robert.miller@example.com",
+      "phone": "+1 (234) 567-8901"
+    },
+    {
+      "id": "bxCihxa9R8NETgDRL2ypp",
+      "name": "Olivia Brown",
+      "courseId": 101,
+      "classId": 8,
+      "subject": "Hindi",
+      "image": "https://images.pexels.com/photos/12898888/pexels-photo-12898888.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "olivia.brown@example.com",
+      "phone": "+1 (876) 543-2109"
+    },
+    {
+      "id": "VGrPPPSgw6rYtpLNMR5Gi",
+      "name": "Daniel Wilson",
+      "courseId": 104,
+      "classId": 9,
+      "subject": "Science",
+      "image": "https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "daniel.wilson@example.com",
+      "phone": "+1 (109) 876-5432"
+    },
+    {
+      "id": "rjlKgAeSCXV0XyQDfV8ZK",
+      "name": "Sophia Taylor",
+      "courseId": 103,
+      "classId": 10,
+      "subject": "Mathematics",
+      "image": "https://images.pexels.com/photos/10234471/pexels-photo-10234471.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "sophia.taylor@example.com",
+      "phone": "+1 (543) 210-9876"
+    },
+    {
+      "id": "zMy_6Mufz_8A1jYMV_O2X",
+      "name": "Matthew Clark",
+      "courseId": 102,
+      "classId": 6,
+      "subject": "English",
+      "image": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "matthew.clark@example.com",
+      "phone": "+1 (210) 987-6543"
+    },
+    {
+      "id": "ONtl1G7lRkc7Ra3MFdj-m",
+      "name": "Ava Turner",
+      "courseId": 101,
+      "classId": 7,
+      "subject": "Hindi",
+      "image": "https://images.pexels.com/photos/19812948/pexels-photo-19812948.png?auto=compress&cs=tinysrgb&h=350",
+      "email": "ava.turner@example.com",
+      "phone": "+1 (654) 321-0987"
+    },
+    {
+      "id": "Ym0ZqFa7iVS-kbx8dufJt",
+      "name": "Ethan Harris",
+      "subject": "Science",
+      "courseId": 104,
+      "classId": 8,
+      "image": "https://images.pexels.com/photos/4600300/pexels-photo-4600300.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "ethan.harris@example.com",
+      "phone": "+1 (987) 654-3210"
+    },
+    {
+      "id": "MQAcdMaWjZ_TIIZ1PglDP",
+      "name": "Grace Martinez",
+      "courseId": 103,
+      "classId": 9,
+      "subject": "Mathematics",
+      "image": "https://images.pexels.com/photos/4600304/pexels-photo-4600304.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "grace.martinez@example.com",
+      "phone": "+1 (123) 456-7890"
+    },
+    {
+      "id": "E00b8cbdYF5tNWRq4BS6I",
+      "name": "Carter Scott",
+      "courseId": 102,
+      "classId": 10,
+      "subject": "English",
+      "image": "https://images.pexels.com/photos/7312467/pexels-photo-7312467.jpeg?auto=compress&cs=tinysrgb&h=350",
+      "email": "carter.scott@example.com",
+      "phone": "+1 (456) 789-0123"
     }
   ],
+  "class": [],
   "courses": [],
   "notices": [],
   "founders": [],
