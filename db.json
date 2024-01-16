@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "id":1,
-      "username":"admin01",
-      "password":"itsadmin",
-      "role":"Admin"
-  }
+      "id": 1,
+      "username": "admin01",
+      "password": "itsadmin",
+      "role": "Admin"
+    }
   ],
   "student": [],
   "teacher": [],
