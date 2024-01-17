@@ -25,7 +25,7 @@ const Classes = () => {
           console.log(classStudents);
 
           return(
-            <>
+            
              <div key={id} className="col-md-4 mb-4">
             <Link
               to={`/classes/${id}`}
@@ -42,7 +42,6 @@ const Classes = () => {
               </div>
             </Link>
           </div>
-            </>
           )
         })}
       </div>
