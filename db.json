@@ -14,7 +14,7 @@
       "age": 15,
       "classId": 6,
       "userId": "nK9bXq5rYz",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://thumbs.dreamstime.com/b/smiling-boy-student-high-school-portrait-33063142.jpg"
     },
     {
@@ -23,7 +23,7 @@
       "age": 14,
       "classId": 6,
       "userId": "nK9bXq5rYz",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://www.womenio.com/wp-content/uploads/2021/09/Being-Single-in-High-School.jpg"
     },
     {
@@ -32,7 +32,7 @@
       "age": 16,
       "classId": 6,
       "userId": "nK9bXq5rYz",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://image1.masterfile.com/getImage/NjMwLTA3MDcxNzg1ZW4uMDAwMDAwMDA=AK8I9d/630-07071785en_Masterfile.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "age": 15,
       "classId": 7,
       "userId": "sS3Gq6F2bR",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://timesofindia.indiatimes.com/photo/104889832/104889832.jpg"
     },
     {
@@ -50,7 +50,7 @@
       "age": 14,
       "classId": 7,
       "userId": "rYz9q3pAxY",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZYem5bgC6sCgriwlG8FeIvtkY91t3hDWUA&usqp=CAU"
     },
     {
@@ -59,7 +59,7 @@
       "age": 16,
       "classId": 7,
       "userId": "oP9oZkU2Gh",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2023/07/Joseph-Bui-yoder-state-takeovers_24-scaled.jpg?fit=1200%2C800&ssl=1"
     },
     {
@@ -68,7 +68,7 @@
       "age": 15,
       "classId": 8,
       "userId": "aGh23RtVb",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://qph.cf2.quoracdn.net/main-thumb-147481624-200-agklstkxcftpsqxmoaqaqjgonwgxjfbc.jpeg"
     },
     {
@@ -77,7 +77,7 @@
       "age": 14,
       "classId": 8,
       "userId": "bXq5rYz9qT",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCaGwXu8RB8fOK-Q3SCgFlP_fDcqFd2KjKg&usqp=CAU"
     },
     {
@@ -86,7 +86,7 @@
       "age": 16,
       "classId": 8,
       "userId": "z9q3pAeA3p",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://thumbs.dreamstime.com/z/high-school-student-hallway-classmates-background-33015496.jpg"
     },
     {
@@ -95,7 +95,7 @@
       "age": 15,
       "classId": 9,
       "userId": "sS3Gq6F2bR",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4KG_-2hP4fo2sBGucPHOrBtfuNaLTP8YBw&usqp=CAU"
     },
     {
@@ -104,7 +104,7 @@
       "age": 14,
       "classId": 9,
       "userId": "i9oZkU2Gh7",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusik0-9V23zamcjmo1A5dHTjAR9g1-16mSQ&usqp=CAU"
     },
     {
@@ -113,7 +113,7 @@
       "age": 16,
       "classId": 9,
       "userId": "u2Gh7Pq5tT",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9qerW2zgDX4T1jL7XMkSo4siMDb35nANLg&usqp=CAU"
     },
     {
@@ -122,7 +122,7 @@
       "age": 15,
       "classId": 10,
       "userId": "lK8LQF7nW6",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://english.mathrubhumi.com/image/contentid/policy:1.8514619:1691127392/Plus%20one%20students%20(1).jpg?$p=a0f26b3&f=1x1&w=1080&q=0.8"
     },
     {
@@ -131,7 +131,7 @@
       "age": 14,
       "classId": 10,
       "userId": "sS3Gq6F2bR",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwSFayKUQpvewFrIrsYrj2AEDyXJChO4mKQ&usqp=CAU"
     },
     {
@@ -140,7 +140,7 @@
       "age": 16,
       "classId": 10,
       "userId": "tT8GcS1Lk5",
-      "marks": {"Hindi":0,"English":0,"Mathematics":0,"Science":0},
+      "marks": { "Hindi": 0, "English": 0, "Mathematics": 0, "Science": 0 },
       "image": "https://i.guim.co.uk/img/media/efd4da1dc87c468315029c7d8516d743080012d1/0_48_2160_1608/master/2160.jpg?width=465&dpr=1&s=none"
     }
   ],
@@ -350,32 +350,32 @@
     {
       "id": "c1B6jGk4R8",
       "name": "6th Class",
-      "courseID": ["Hindi","English","Mathematics","Science"],
-      "classId":6
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "classId": 6
     },
     {
       "id": "c2E7lH2U7Pq",
       "name": "7th Class",
-      "courseID": ["Hindi","English","Mathematics","Science"],
-      "classId":7
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "classId": 7
     },
     {
       "id": "c3F8o6z7S1",
       "name": "8th Class",
-      "courseID": ["Hindi","English","Mathematics","Science"],
-      "classId":8
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "classId": 8
     },
     {
       "id": "c4G7lH8M2O4",
       "name": "9th Class",
-      "courseID": ["Hindi","English","Mathematics","Science"],
-      "classId":9
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "classId": 9
     },
     {
       "id": "c5K8m3N9O5",
       "name": "10th Class",
-      "courseID": ["Hindi","English","Mathematics","Science"],
-      "classId":10
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "classId": 10
     }
   ],
   "founders": [
@@ -415,6 +415,49 @@
       "name": "Ankit",
       "email": "Ankit@mail.com",
       "message": "Know about school"
+    },
+    {
+      "id": "f734",
+      "name": "Ankit",
+      "email": "ankitanku090701@gmail.com",
+      "message": "Hello World"
+    },
+    {
+      "id": "38d9",
+      "name": "Jayesh",
+      "email": "jayeshchawhan18121@gmail.com",
+      "message": "Test Message"
+    },
+    {
+      "id": "6f74",
+      "name": "Ankit",
+      "email": "ankitanku090701@gmail.com",
+      "message": "Hello World Test Message",
+      "from_name": "c"
+    },
+    {
+      "id": "b642",
+      "name": "Ankit",
+      "email": "ankitanku090701@gmail.com",
+      "message": "Test Email"
+    },
+    {
+      "id": "fbbe",
+      "name": "Ankit",
+      "email": "ankitanku090701@gmail.com",
+      "message": "Hehe"
+    },
+    {
+      "id": "0ff3",
+      "name": "Jayesh",
+      "email": "jayesh@gmail.com",
+      "message": "Haha"
+    },
+    {
+      "id": "2a18",
+      "name": "Jayesh",
+      "email": "jayeshchawhan18121@gmail.com",
+      "message": "your school is nice"
     }
   ]
 }
