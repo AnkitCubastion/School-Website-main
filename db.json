@@ -311,6 +311,56 @@
       "phone": "+1 (456) 789-0123"
     }
   ],
+  "notices": [
+    {
+      "id": "QpeZGE8Td-z7JD0YXRVN1",
+      "title": "Parent-Teacher Meeting",
+      "date": "2024-02-01",
+      "content": "There will be a Parent-Teacher Meeting on February 1, 2024, from 3:00 PM to 5:00 PM in the school auditorium. We encourage all parents to attend and discuss their child's progress with the teachers."
+    },
+    {
+      "id": "awMtCH1xqLQ3ou-_KZsj8",
+      "title": "Annual Sports Day",
+      "date": "2024-03-15",
+      "content": "Get ready for our Annual Sports Day on March 15, 2024! Students are encouraged to participate in various sports activities. Parents are invited to cheer for their children and enjoy the day filled with sportsmanship and fun."
+    },
+    {
+      "id": "hY8pHu1elI8dAKfqJG9N1",
+      "title": "School Picnic",
+      "date": "2024-04-20",
+      "content": "We are organizing a school picnic on April 20, 2024. Details about the venue, transportation, and other logistics will be provided soon. It's a great opportunity for students to bond with their classmates and enjoy a day outdoors."
+    },
+    {
+      "id": "7af33KdwyO80voxCyNqA2",
+      "title": "Exam Schedule",
+      "date": "2024-05-10",
+      "content": "The final exam schedule for the current academic year has been released. Please check the school website or contact the school office for detailed information about the exam dates, subjects, and timings."
+    },
+    {
+      "id": "MDVIQYEABMdm4jfmJFL01",
+      "title": "School Play - Auditions",
+      "date": "2024-06-05",
+      "content": "Auditions for the school play will be held on June 5, 2024, in the school auditorium. Interested students are requested to prepare a short performance or monologue for the audition. Let's make this year's play a memorable one!"
+    },
+    {
+      "id": "ntC1KfHe_yYlvr7g36Cwv",
+      "title": "Science Fair Announcement",
+      "date": "2024-08-15",
+      "content": "We are excited to announce the upcoming Science Fair on August 15, 2024. Students interested in participating are encouraged to start planning their projects. More details about registration and guidelines will be provided soon."
+    },
+    {
+      "id": "U8RI34kbbLeoMff2V-d3y",
+      "title": "School Holiday - Independence Day",
+      "date": "2024-09-05",
+      "content": "In observance of Independence Day, the school will be closed on September 5, 2024. We wish all students and their families a joyous celebration of the nation's independence."
+    },
+    {
+      "id": "hUDzcJEVt4YnpSXogx8pO",
+      "title": "PTA Meeting Rescheduled",
+      "date": "2024-10-10",
+      "content": "The previously scheduled PTA meeting on October 10, 2024, has been rescheduled to October 15, 2024. We apologize for any inconvenience caused and appreciate your understanding."
+    }
+  ],
   "class": [
     {
       "id": "c1B6jGk4R8",
@@ -435,7 +485,6 @@
       "teacherId": "t15G1L6Kj6N9O7"
     }
   ],
-  "notices": [],
   "founders": [
     {
       "id": 1,
