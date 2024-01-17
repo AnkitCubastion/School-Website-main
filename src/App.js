@@ -7,14 +7,19 @@ import {
   HomeLayout,
   Register,
   Notice,
-  Courses,
   Faculties,
   Result,
   AboutUs,
   SingleFaculty,
 } from "./Pages";
-import {loader as FacultyLoader} from "../src/Pages/Faculties";
+
 import {loader as NoticeLoader} from "../src/Pages/Notice";
+import Classes from "./Pages/Classes";
+import { loader as FacultyLoader } from "../src/Pages/Faculties";
+import { loader as ClassLoader } from "../src/Pages/Classes";
+import { loader as SingleClassLoader } from "../src/Pages/SingleClasses";
+import { SingleClasses } from "./Pages/SingleClasses";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,9 +38,16 @@ const router = createBrowserRouter([
         loader:NoticeLoader
       },
       {
-        path: "courses",
-        element: <Courses />,
+        path: "classes",
+        element: <Classes />,
         errorElement: <Error />,
+        loader: ClassLoader,
+      },
+      {
+        path: "classes/:id",
+        element: <SingleClasses />,
+        errorElement: <Error />,
+        loader: SingleClassLoader,
       },
       {
         path: "faculties",

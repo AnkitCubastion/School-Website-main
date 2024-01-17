@@ -7,7 +7,158 @@
       "role": "Admin"
     }
   ],
-  "student": [],
+  "student": [
+    {
+      "id": "j2nWq0k8LQ",
+      "name": "John Doe",
+      "age": 15,
+      "grade": "6th",
+      "classId": "c1B6jGk4R8",
+      "userId": "nK9bXq5rYz",
+      "marks": [],
+      "image": "https://thumbs.dreamstime.com/b/smiling-boy-student-high-school-portrait-33063142.jpg"
+    },
+    {
+      "id": "xYz9q3pAeA",
+      "name": "Alice Smith",
+      "age": 14,
+      "grade": "6th",
+      "classId": "c1B6jGk4R8",
+      "userId": "nK9bXq5rYz",
+      "marks": [],
+      "image": "https://www.womenio.com/wp-content/uploads/2021/09/Being-Single-in-High-School.jpg"
+    },
+    {
+      "id": "oP9oZkU2Gh",
+      "name": "Bob Johnson",
+      "age": 16,
+      "grade": "6th",
+      "classId": "c1B6jGk4R8",
+      "userId": "nK9bXq5rYz",
+      "marks": [],
+      "image": "https://image1.masterfile.com/getImage/NjMwLTA3MDcxNzg1ZW4uMDAwMDAwMDA=AK8I9d/630-07071785en_Masterfile.jpg"
+    },
+    {
+      "id": "h7Pq5tT8Gc",
+      "name": "Emma Brown",
+      "age": 15,
+      "grade": "7th",
+      "classId": "c3F8o6z7S1",
+      "userId": "sS3Gq6F2bR",
+      "marks": [],
+      "image": "https://timesofindia.indiatimes.com/photo/104889832/104889832.jpg"
+    },
+    {
+      "id": "wX5rYz9qTg",
+      "name": "David White",
+      "age": 14,
+      "grade": "7th",
+      "classId": "c3F8o6z7S1",
+      "userId": "rYz9q3pAxY",
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZYem5bgC6sCgriwlG8FeIvtkY91t3hDWUA&usqp=CAU"
+    },
+    {
+      "id": "pAeA3p9qXz",
+      "name": "Sophia Miller",
+      "age": 16,
+      "grade": "7th",
+      "classId": "c3F8o6z7S1",
+      "userId": "oP9oZkU2Gh",
+      "marks": [],
+      "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2023/07/Joseph-Bui-yoder-state-takeovers_24-scaled.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
+      "id": "lK8LQF7nW6",
+      "name": "Oliver Davis",
+      "age": 15,
+      "grade": "8th",
+      "classId": "c4G7lH8M2O4",
+      "userId": "aGh23RtVb",
+      "marks": [],
+      "image": "https://qph.cf2.quoracdn.net/main-thumb-147481624-200-agklstkxcftpsqxmoaqaqjgonwgxjfbc.jpeg"
+    },
+    {
+      "id": "yRz9q3pAeK",
+      "name": "Ava Wilson",
+      "age": 14,
+      "grade": "8th",
+      "classId": "c4G7lH8M2O4",
+      "userId": "bXq5rYz9qT",
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCaGwXu8RB8fOK-Q3SCgFlP_fDcqFd2KjKg&usqp=CAU"
+    },
+    {
+      "id": "oZkU2Gh7Pq",
+      "name": "Ethan Clark",
+      "age": 16,
+      "grade": "8th",
+      "classId": "c4G7lH8M2O4",
+      "userId": "z9q3pAeA3p",
+      "marks": [],
+      "image": "https://thumbs.dreamstime.com/z/high-school-student-hallway-classmates-background-33015496.jpg"
+    },
+    {
+      "id": "T8GcS1Lk5R",
+      "name": "Liam Taylor",
+      "age": 15,
+      "grade": "9th",
+      "classId": "c5K8m3N9O5",
+      "userId": "sS3Gq6F2bR",
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4KG_-2hP4fo2sBGucPHOrBtfuNaLTP8YBw&usqp=CAU"
+    },
+    {
+      "id": "q5yR4Lk8A1",
+      "name": "Mia Moore",
+      "age": 14,
+      "grade": "9th",
+      "classId": "c5K8m3N9O5",
+      "userId": "i9oZkU2Gh7",
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusik0-9V23zamcjmo1A5dHTjAR9g1-16mSQ&usqp=CAU"
+    },
+    {
+      "id": "kU2Gh7Pq5t",
+      "name": "Noah Davis",
+      "age": 16,
+      "grade": "9th",
+      "classId": "c5K8m3N9O5",
+      "userId": "u2Gh7Pq5tT",
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9qerW2zgDX4T1jL7XMkSo4siMDb35nANLg&usqp=CAU"
+    },
+    {
+      "id": "aLk5Rz9qXz",
+      "name": "Isabella Jones",
+      "age": 15,
+      "grade": "10th",
+      "classId": "c2E7lH2U7Pq",
+      "userId": "lK8LQF7nW6",
+      "marks": [],
+      "image": "https://english.mathrubhumi.com/image/contentid/policy:1.8514619:1691127392/Plus%20one%20students%20(1).jpg?$p=a0f26b3&f=1x1&w=1080&q=0.8"
+    },
+    {
+      "id": "xYz9q3pAeW",
+      "name": "Elijah Brown",
+      "age": 14,
+      "grade": "10th",
+      "classId": "c2E7lH2U7Pq",
+      "userId": "sS3Gq6F2bR",
+      "marks": [],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwSFayKUQpvewFrIrsYrj2AEDyXJChO4mKQ&usqp=CAU"
+    },
+    {
+      "id": "kW8A1Lk6q3",
+      "name": "Avery Miller",
+      "age": 16,
+      "grade": "10th",
+      "classId": "c2E7lH2U7Pq",
+      "userId": "tT8GcS1Lk5",
+      "marks": [],
+      "image": "https://i.guim.co.uk/img/media/efd4da1dc87c468315029c7d8516d743080012d1/0_48_2160_1608/master/2160.jpg?width=465&dpr=1&s=none"
+    }
+  ],
   "teacher": [
     {
       "id": "PrXrTPcFbVdFHu2SOMzlH",
@@ -160,8 +311,6 @@
       "phone": "+1 (456) 789-0123"
     }
   ],
-  "class": [],
-  "courses": [],
   "notices": [
     {
       "id": "QpeZGE8Td-z7JD0YXRVN1",
@@ -210,6 +359,130 @@
       "title": "PTA Meeting Rescheduled",
       "date": "2024-10-10",
       "content": "The previously scheduled PTA meeting on October 10, 2024, has been rescheduled to October 15, 2024. We apologize for any inconvenience caused and appreciate your understanding."
+    }
+  ],
+  "class": [
+    {
+      "id": "c1B6jGk4R8",
+      "name": "6th Class",
+      "courseIDs": ["co1B6j2U7Pq", "co2E7j5L8Kj", "co3F8o6z7S1"],
+      "studentIDs": ["j2nWq0k8LQ", "xYz9q3pAeA", "oP9oZkU2Gh"]
+    },
+    {
+      "id": "c2E7lH2U7Pq",
+      "name": "7th Class",
+      "courseIDs": ["co4G7l1H8M2", "co5K8m3N9O4", "co6J9m1O5Q6"],
+      "studentIDs": ["aLk5Rz9qXz", "kW8A1Lk6q3", "xYz9q3pAeW"]
+    },
+    {
+      "id": "c3F8o6z7S1",
+      "name": "8th Class",
+      "courseIDs": ["co7U10G8L4Kj", "co8U10G9L5Kj", "co9U10G1L6Kj"],
+      "studentIDs": ["h7Pq5tT8Gc", "wX5rYz9qTg", "pAeA3p9qXz"]
+    },
+    {
+      "id": "c4G7lH8M2O4",
+      "name": "9th Class",
+      "courseIDs": ["co10H8M2Kj3N9O4", "co11H8M2Kj4N9O5", "co12H8M2Kj5N9O6"],
+      "studentIDs": ["lK8LQF7nW6", "yRz9q3pAeK", "oZkU2Gh7Pq"]
+    },
+    {
+      "id": "c5K8m3N9O5",
+      "name": "10th Class",
+      "courseIDs": ["co13G1L6Kj4N9O5", "co14G1L6Kj5N9O6", "co15G1L6Kj6N9O7"],
+      "studentIDs": ["T8GcS1Lk5R", "q5yR4Lk8A1", "kU2Gh7Pq5t"]
+    }
+  ],
+  "courses": [
+    {
+      "id": "co1B6j2U7Pq",
+      "name": "Mathematics",
+      "classId": "c1B6jGk4R8",
+      "teacherId": "t1B6j2U7Pq"
+    },
+    {
+      "id": "co2E7j5L8Kj",
+      "name": "Science",
+      "classId": "c1B6jGk4R8",
+      "teacherId": "t2E7j5L8Kj"
+    },
+    {
+      "id": "co3F8o6z7S1",
+      "name": "English",
+      "classId": "c1B6jGk4R8",
+      "teacherId": "t3F8o6z7S1"
+    },
+    {
+      "id": "co4G7l1H8M2",
+      "name": "History",
+      "classId": "c2E7lH2U7Pq",
+      "teacherId": "t4G7l1H8M2"
+    },
+    {
+      "id": "co5K8m3N9O4",
+      "name": "Physics",
+      "classId": "c2E7lH2U7Pq",
+      "teacherId": "t5K8m3N9O4"
+    },
+    {
+      "id": "co6J9m1O5Q6",
+      "name": "Chemistry",
+      "classId": "c2E7lH2U7Pq",
+      "teacherId": "t6J9m1O5Q6"
+    },
+    {
+      "id": "co7U10G8L4Kj",
+      "name": "Biology",
+      "classId": "c3F8o6z7S1",
+      "teacherId": "t7U10G8L4Kj"
+    },
+    {
+      "id": "co8U10G9L5Kj",
+      "name": "Literature",
+      "classId": "c3F8o6z7S1",
+      "teacherId": "t8U10G9L5Kj"
+    },
+    {
+      "id": "co9U10G1L6Kj",
+      "name": "Geography",
+      "classId": "c3F8o6z7S1",
+      "teacherId": "t9U10G1L6Kj"
+    },
+    {
+      "id": "co10H8M2Kj3N9O4",
+      "name": "Mathematics",
+      "classId": "c4G7lH8M2O4",
+      "teacherId": "t10H8M2Kj3N9O4"
+    },
+    {
+      "id": "co11H8M2Kj4N9O5",
+      "name": "Computer Science",
+      "classId": "c4G7lH8M2O4",
+      "teacherId": "t11H8M2Kj4N9O5"
+    },
+    {
+      "id": "co12H8M2Kj5N9O6",
+      "name": "Art",
+      "classId": "c4G7lH8M2O4",
+      "teacherId": "t12H8M2Kj5N9O6"
+    },
+    {
+      "id": "co13G1L6Kj4N9O5",
+      "name": "History",
+      "classId": "c5K8m3N9O5",
+      "teacherId": "t13G1L6Kj4N9O5"
+    },
+    {
+      "id": "co14G1L6Kj5N9O6",
+      "name": "Economics",
+      "classId": "c5K8m3N9O5",
+      "teacherId": "t14G1L6Kj5N9O6"
+    },
+    {
+      "id": "co15G1L6Kj6N9O7",
+      "name": "Chemistry",
+      "classId": "c5K8m3N9O5",
+      "teacherId": "t15G1L6Kj6N9O7"
     }
   ],
   "founders": [
