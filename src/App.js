@@ -19,7 +19,12 @@ import { loader as FacultyLoader } from "../src/Pages/Faculties";
 import { loader as ClassLoader } from "../src/Pages/Classes";
 import { loader as SingleClassLoader } from "../src/Pages/SingleClasses";
 import { SingleClasses } from "./Pages/SingleClasses";
+<<<<<<< HEAD
 import {loader as SingleFacultyLoader} from "./Pages/SingleFaculty";
+=======
+import { Students } from "./Pages/Students";
+import { SingleStudent } from "./Pages/SingleStudent";
+>>>>>>> 9b0fccd5ad196401a76d7c84c6fe4b1c5739658b
 
 const router = createBrowserRouter([
   {
@@ -33,10 +38,10 @@ const router = createBrowserRouter([
         errorElement: <Error />,
       },
       {
-        path:"notices",
-        element:<Notice/>,
-        errorElement:<Error/>,
-        loader:NoticeLoader
+        path: "notices",
+        element: <Notice />,
+        errorElement: <Error />,
+        loader: NoticeLoader,
       },
       {
         path: "classes",
@@ -49,6 +54,16 @@ const router = createBrowserRouter([
         element: <SingleClasses />,
         errorElement: <Error />,
         loader: SingleClassLoader,
+      },
+      {
+        path: "students",
+        element: <Students />,
+        errorElement: <Error />,
+      },
+      {
+        path: "students/:id",
+        element: <SingleStudent />,
+        errorElement: <Error />,
       },
       {
         path: "faculties",

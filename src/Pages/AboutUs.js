@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./AboutUs.css";
 import { customFetch } from "../Utils";
+import emailjs from "@emailjs/browser";
 
 const AboutUs = () => {
+  const form = useRef();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,8 +21,16 @@ const AboutUs = () => {
     e.preventDefault();
     try {
       const response = await customFetch.post("/contactUs", formData);
+      const result = await emailjs.sendForm(
+        "service_ankit_prasad",
+        "template_ankit_prasad",
+        form.current,
+        "_JAB7ihJT3G8_FDBc"
+      );
+      console.log(result.text);
       console.log("Form submitted:", response.data);
       setFormData({ name: "", email: "", message: "" });
+      alert("Email Has Been Sent");
     } catch (error) {
       console.error("Error submitting form:", error);
     }
@@ -105,7 +116,7 @@ const AboutUs = () => {
         <hr />
         <hr />
         <h1>Contact Us</h1>
-        <form onSubmit={handleSubmit}>
+        <form ref={form} onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
             <input
