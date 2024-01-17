@@ -19,6 +19,7 @@ import { loader as FacultyLoader } from "../src/Pages/Faculties";
 import { loader as ClassLoader } from "../src/Pages/Classes";
 import { loader as SingleClassLoader } from "../src/Pages/SingleClasses";
 import { SingleClasses } from "./Pages/SingleClasses";
+import {loader as SingleFacultyLoader} from "./Pages/SingleFaculty";
 import { Students } from "./Pages/Students";
 import { SingleStudent } from "./Pages/SingleStudent";
 
@@ -71,6 +72,7 @@ const router = createBrowserRouter([
         path: "faculties/:id",
         element: <SingleFaculty />,
         errorElement: <Error />,
+        loader:SingleFacultyLoader
       },
       {
         path: "results",
