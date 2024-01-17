@@ -223,21 +223,12 @@ code {
   margin:2rem;
   padding: 2rem;
   display:flex;
-  gap:1rem;
+  gap:4rem;
   align-items: center;
   justify-content: space-around;
-  background: rgb(50, 50, 50);
-  border-radius: 1.5rem;
 }
 .single-content{
   width:30rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.single-image{
-  border-radius: 1.5rem;
 }
 .movie-director{
   text-transform: capitalize;
@@ -423,14 +414,4 @@ code {
   .question {
     width:90%;
   }
-}
-
-.student-list-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
-  gap: 3rem;
-
-}
-.student-list{
-  margin:4rem;
 }
