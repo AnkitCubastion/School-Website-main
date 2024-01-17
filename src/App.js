@@ -14,7 +14,7 @@ import {
   SingleFaculty
 } from "./Pages";
 import {loader as FacultyLoader} from "../src/Pages/Faculties";
-
+import {loader as NoticeLoader} from "../src/Pages/Notice";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,7 +29,8 @@ const router = createBrowserRouter([
       {
         path:"notices",
         element:<Notice/>,
-        errorElement:<Error/>
+        errorElement:<Error/>,
+        loader:NoticeLoader
       },
       {
         path:"courses",
@@ -72,6 +73,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  console.log(nanoid());
   return (
     <>
       <RouterProvider router={router} />
