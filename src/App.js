@@ -14,6 +14,9 @@ import {
 } from "./Pages";
 import Classes from "./Pages/Classes";
 import { loader as FacultyLoader } from "../src/Pages/Faculties";
+import { loader as ClassLoader } from "../src/Pages/Classes";
+import { loader as SingleClassLoader } from "../src/Pages/SingleClasses";
+import { SingleClasses } from "./Pages/SingleClasses";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,13 @@ const router = createBrowserRouter([
         path: "classes",
         element: <Classes />,
         errorElement: <Error />,
+        loader: ClassLoader,
+      },
+      {
+        path: "classes/:id",
+        element: <SingleClasses />,
+        errorElement: <Error />,
+        loader: SingleClassLoader,
       },
       {
         path: "faculties",
