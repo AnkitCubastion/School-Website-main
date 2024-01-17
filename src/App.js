@@ -33,9 +33,9 @@ const router = createBrowserRouter([
         loader:NoticeLoader
       },
       {
-        path:"courses",
-        element:<Courses/>,
-        errorElement:<Error/>
+        path: "courses",
+        element: <Courses />,
+        errorElement: <Error />,
       },
       {
         path:"faculties",
@@ -49,20 +49,20 @@ const router = createBrowserRouter([
         errorElement:<Error/>,
       },
       {
-        path:"results",
-        element:<Result/>,
-        errorElement:<Error/>
+        path: "results",
+        element: <Result />,
+        errorElement: <Error />,
       },
       {
-        path:"about",
-        element:<AboutUs/>,
-        errorElement:<Error/>
-      }
+        path: "about",
+        element: <AboutUs />,
+        errorElement: <Error />,
+      },
     ],
   },
   {
     path: "register",
-    element: <Register/>,
+    element: <Register />,
     errorElement: <Error />,
   },
   {
@@ -82,3 +82,4 @@ function App() {
 }
 
 export default App;
+
