@@ -402,5 +402,19 @@
     }
   ],
   "events": [],
-  "holidayCalaender": []
+  "holidayCalaender": [],
+  "contactUs": [
+    {
+      "id": "38e2",
+      "name": "Ankit",
+      "email": "ankit.prasad@cubastion.com",
+      "message": "Want to know about admission process."
+    },
+    {
+      "id": "2cb6",
+      "name": "Ankit",
+      "email": "Ankit@mail.com",
+      "message": "Know about school"
+    }
+  ]
 }
