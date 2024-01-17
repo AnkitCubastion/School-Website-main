@@ -7,4 +7,3 @@ export {default as FormSelect} from "./FormSelect";
 export {default as Loading} from "./Loading";
 export {default as Filters} from "./Filters";
 export {default as NoticeList} from "./NoticeList";
-export {default as StudentCard} from "./StudentCard";
