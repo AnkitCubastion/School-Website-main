@@ -269,6 +269,8 @@ code {
 .custom-label{
   color:rgb(9, 9, 9) ;
   text-align: center;
+  display: inline;
+  margin-bottom: 0.5 rem;
 }
 .filter-first{
   display: flex;
