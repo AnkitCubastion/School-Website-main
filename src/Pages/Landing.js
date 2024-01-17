@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Founder from "../Component/Founder";
 
 const Landing = () => {
   return (
-    <div>Landing</div>
-  )
-}
+    <>
+      <Founder />
+    </>
+  );
+};
 
-export default Landing
+export default Landing;

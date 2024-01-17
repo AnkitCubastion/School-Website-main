@@ -1,8 +1,8 @@
 import {createSlice} from "@reduxjs/toolkit";
 
 const defaultState = {
-    movieName:"",
-    genreName:"",
+    teachName:"",
+    subName:"",
     sortName:"",
 }
 
@@ -10,13 +10,13 @@ const filterSlice = createSlice({
     name:'filter',
     initialState:defaultState,
     reducers:{
-        setMovieName:(state,action)=>{
+        setTeachName:(state,action)=>{
             const {movie} = action.payload;
-            state.movieName = movie;
+            state.teachName = movie;
         },
-        setGenreName:(state,action)=>{
+        setSubName:(state,action)=>{
             const {genre} = action.payload;
-            state.genreName = genre;
+            state.subName = genre;
         },
         setSortName:(state,action)=>{
             const {sort} = action.payload;
@@ -25,5 +25,5 @@ const filterSlice = createSlice({
     }
 })
 
-export const {setMovieName,setGenreName,setSortName} = filterSlice.actions;
+export const {setTeachName,setSubName,setSortName} = filterSlice.actions;
 export default filterSlice.reducer;

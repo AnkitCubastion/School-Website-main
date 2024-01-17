@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { nanoid } from "nanoid";
 import {
   Login,
   Landing,
@@ -10,7 +11,9 @@ import {
   Faculties,
   Result,
   AboutUs,
+  SingleFaculty,
 } from "./Pages";
+import { loader as FacultyLoader } from "../src/Pages/Faculties";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +39,12 @@ const router = createBrowserRouter([
       {
         path: "faculties",
         element: <Faculties />,
+        errorElement: <Error />,
+        loader: FacultyLoader,
+      },
+      {
+        path: "faculties/:id",
+        element: <SingleFaculty />,
         errorElement: <Error />,
       },
       {
@@ -71,6 +80,3 @@ function App() {
 }
 
 export default App;
-
-// Test comment on main branch
-// Test Comment
