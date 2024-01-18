@@ -13,7 +13,7 @@ import {
   SingleFaculty,
 } from "./Pages";
 
-import {loader as NoticeLoader} from "../src/Pages/Notice";
+import { loader as NoticeLoader } from "../src/Pages/Notice";
 import Classes from "./Pages/Classes";
 import { loader as FacultyLoader } from "../src/Pages/Faculties";
 import { loader as StudentLoader } from "../src/Pages/Students";
@@ -103,7 +103,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  console.log(nanoid());
+  // console.log(nanoid());
   return (
     <>
       <RouterProvider router={router} />
