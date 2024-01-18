@@ -2,6 +2,7 @@
   margin: 50px;
   border-radius: 1rem;
   background: rgb(50, 50, 50);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: white;
   padding: 50px;
 }
@@ -16,10 +17,15 @@ h1 {
   width: 300px;
   border-radius: 1rem;
   background: rgb(100, 100, 100);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
   img {
     height: 70%;
     width: 60%;
@@ -32,6 +38,6 @@ h1 {
 .founder-card-continer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 20px;
 }
