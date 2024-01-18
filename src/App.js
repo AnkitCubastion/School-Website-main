@@ -13,11 +13,13 @@ import {
   SingleFaculty,
 } from "./Pages";
 
-import {loader as NoticeLoader} from "../src/Pages/Notice";
+import { loader as NoticeLoader } from "../src/Pages/Notice";
 import Classes from "./Pages/Classes";
 import { loader as FacultyLoader } from "../src/Pages/Faculties";
+import { loader as StudentLoader } from "../src/Pages/Students";
 import { loader as ClassLoader } from "../src/Pages/Classes";
 import { loader as SingleClassLoader } from "../src/Pages/SingleClasses";
+import { loader as SingleStudentLoader } from "../src/Pages/SingleStudent";
 import { SingleClasses } from "./Pages/SingleClasses";
 import {loader as SingleFacultyLoader} from "./Pages/SingleFaculty";
 import { Students } from "./Pages/Students";
@@ -56,11 +58,13 @@ const router = createBrowserRouter([
         path: "students",
         element: <Students />,
         errorElement: <Error />,
+        loader: StudentLoader,
       },
       {
         path: "students/:id",
         element: <SingleStudent />,
         errorElement: <Error />,
+        loader: SingleStudentLoader,
       },
       {
         path: "faculties",
@@ -72,7 +76,7 @@ const router = createBrowserRouter([
         path: "faculties/:id",
         element: <SingleFaculty />,
         errorElement: <Error />,
-        loader:SingleFacultyLoader
+        loader: SingleFacultyLoader,
       },
       {
         path: "results",
@@ -99,7 +103,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  console.log(nanoid());
+  // console.log(nanoid());
   return (
     <>
       <RouterProvider router={router} />
