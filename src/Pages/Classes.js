@@ -34,7 +34,7 @@ const Classes = () => {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">{name}</h5>
-                  <p className="card-text">Courses: {courseID.length}</p>
+                  <p className="card-text">Subjects: {courseID.length}</p>
                   <p className="card-text">
                     Students: {classStudents?.length}
                   </p>
