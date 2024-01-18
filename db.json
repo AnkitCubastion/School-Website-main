@@ -415,31 +415,56 @@
     {
       "id": "c1B6jGk4R8",
       "name": "6th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 6
     },
     {
       "id": "c2E7lH2U7Pq",
       "name": "7th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 7
     },
     {
       "id": "c3F8o6z7S1",
       "name": "8th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 8
     },
     {
       "id": "c4G7lH8M2O4",
       "name": "9th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 9
     },
     {
       "id": "c5K8m3N9O5",
       "name": "10th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 10
     }
   ],
@@ -558,6 +583,15 @@
       "location": "Delhi",
       "type": "Event",
       "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-04/27/full/1524814612-1299.jpg"
+    },
+    {
+      "id": "817f",
+      "title": "Independence Day",
+      "description": "Independence Day in School Campus",
+      "date": "2024-08-15",
+      "location": "School Campus",
+      "type": "Event",
+      "image": "https://d20x1nptavktw0.cloudfront.net/wordpress_media/2022/08/Blog-Image-14.jpg"
     }
   ]
 }
