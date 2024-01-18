@@ -11,7 +11,7 @@ const Founder = () => {
         const resp = await customFetch.get("/founders");
         const data = resp.data;
         setFounders(resp.data);
-        console.log(data);
+        // console.log(data);
       } catch (error) {
         console.log("Error fetching data", error);
       }

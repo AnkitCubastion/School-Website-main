@@ -13,7 +13,7 @@ import {
   SingleFaculty,
 } from "./Pages";
 
-import {loader as NoticeLoader} from "../src/Pages/Notice";
+import { loader as NoticeLoader } from "../src/Pages/Notice";
 import Classes from "./Pages/Classes";
 import { loader as FacultyLoader } from "../src/Pages/Faculties";
 import { loader as ClassLoader } from "../src/Pages/Classes";
@@ -32,10 +32,10 @@ const router = createBrowserRouter([
         errorElement: <Error />,
       },
       {
-        path:"notices",
-        element:<Notice/>,
-        errorElement:<Error/>,
-        loader:NoticeLoader
+        path: "notices",
+        element: <Notice />,
+        errorElement: <Error />,
+        loader: NoticeLoader,
       },
       {
         path: "classes",
@@ -85,7 +85,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  console.log(nanoid());
+  // console.log(nanoid());
   return (
     <>
       <RouterProvider router={router} />
