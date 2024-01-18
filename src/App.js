@@ -22,7 +22,7 @@ import { SingleClasses } from "./Pages/SingleClasses";
 import {loader as SingleFacultyLoader} from "./Pages/SingleFaculty";
 import { Students } from "./Pages/Students";
 import { SingleStudent } from "./Pages/SingleStudent";
-
+import {loader as ResultLoader} from "./Pages/Result";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -78,6 +78,7 @@ const router = createBrowserRouter([
         path: "results",
         element: <Result />,
         errorElement: <Error />,
+        loader:ResultLoader
       },
       {
         path: "about",
