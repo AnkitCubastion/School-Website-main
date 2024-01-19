@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 
-const productionUrl = "http://localhost:3000/";
+const productionUrl = "https://school-website-api-hej5.onrender.com/";
 
 export const customFetch = axios.create({
   baseURL: productionUrl,

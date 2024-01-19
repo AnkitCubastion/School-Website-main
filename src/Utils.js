@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const dataUrl =  "http://localhost:3000";
+const dataUrl = "https://school-website-api-hej5.onrender.com/";
 const userUrl = "https://api.escuelajs.co/api/v1";
 
 export const customFetch = axios.create({
