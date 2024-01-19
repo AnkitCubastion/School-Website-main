@@ -23,6 +23,7 @@ const Result = () => {
   const { classNum, searchRes, sortRes } = useSelector(
     (store) => store.resultState
   );
+  const { user } = useSelector((store) => store.userState);
   let [markVal, setMarkVal] = useState(0);
   const onChange = (e) => {
     setMarkVal(e.target.value);
@@ -108,7 +109,8 @@ const Result = () => {
   return (
     <>
       <section>
-        <div className="single-grid ">
+
+        {user?.role === "customer"?"":   <div className="single-grid ">
           <img className="single-image" src={image} alt={name} />
           <div className="single-content">
             <h1 className="movie-title">Marks for {name}</h1>
@@ -123,7 +125,7 @@ const Result = () => {
               Submit Marks
             </button>
           </div>
-        </div>
+        </div>}
         {/* filter section */}
         <div className="filter-section">
           <ResultFilter eventFun={searchFun} reset={reset} />

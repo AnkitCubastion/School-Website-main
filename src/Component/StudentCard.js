@@ -1,7 +1,8 @@
 import React from 'react';
-import {useDispatch} from "react-redux";
+import {useDispatch,useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import { setStudent } from '../Feature/Result/ResultSlice';
+import {toast} from "react-toastify";
 
 const StudentCard = ({age,classId,id,image,marks,name,userId,subject,teacher}) => {
 
@@ -9,10 +10,15 @@ const StudentCard = ({age,classId,id,image,marks,name,userId,subject,teacher}) =
   const dispatch = useDispatch();
 
   const obj = {age,classId,id,image,marks,name,userId,subject,teacher};
+  const { user } = useSelector((store) => store.userState);
 
   const AddStudentMarks = () => {
+    if(user?.role === 'admin'){
     dispatch(setStudent({data:obj}));
-    navigate("/results");
+    navigate("/results");}
+    else if (user?.role === "customer"){
+      toast.error("Only Admins can add marks");
+    }
   }
 
 
