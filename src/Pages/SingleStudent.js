@@ -1,8 +1,7 @@
-import React from 'react'
-import { customFetch } from '../Utils';
-import { useLoaderData } from 'react-router';
-import FacultyCard from '../Component/FacultyCard';
-
+import React from "react";
+import { customFetch } from "../Utils";
+import { useLoaderData } from "react-router";
+import FacultyCard from "../Component/FacultyCard";
 
 export const loader = async ({ params }) => {
   const res = await customFetch.get(`/student/${params.id}`);
@@ -21,8 +20,6 @@ export const loader = async ({ params }) => {
   // console.log(StudentWithTeachers);
   return { data: StudentWithTeachers };
 };
-
-
 
 export const SingleStudent = () => {
   const { data } = useLoaderData();
@@ -77,4 +74,4 @@ export const SingleStudent = () => {
       </div>
     </section>
   );
-}
+};
