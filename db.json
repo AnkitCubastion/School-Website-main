@@ -103,7 +103,7 @@
       "marks": {
         "Hindi": 0,
         "English": 0,
-        "Mathematics": 0,
+        "Mathematics": "88",
         "Science": 0
       },
       "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
@@ -164,7 +164,7 @@
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
-        "Science": 0
+        "Science": "69"
       },
       "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
@@ -393,12 +393,6 @@
       "content": "Auditions for the school play will be held on June 5, 2024, in the school auditorium. Interested students are requested to prepare a short performance or monologue for the audition. Let's make this year's play a memorable one!"
     },
     {
-      "id": "ntC1KfHe_yYlvr7g36Cwv",
-      "title": "Science Fair Announcement",
-      "date": "2024-08-15",
-      "content": "We are excited to announce the upcoming Science Fair on August 15, 2024. Students interested in participating are encouraged to start planning their projects. More details about registration and guidelines will be provided soon."
-    },
-    {
       "id": "U8RI34kbbLeoMff2V-d3y",
       "title": "School Holiday - Independence Day",
       "date": "2024-09-05",
@@ -592,6 +586,15 @@
       "location": "School Campus",
       "type": "Event",
       "image": "https://d20x1nptavktw0.cloudfront.net/wordpress_media/2022/08/Blog-Image-14.jpg"
+    },
+    {
+      "id": "51b4",
+      "title": "Reshab",
+      "description": "Reshab Birthday",
+      "date": "2024-01-20",
+      "location": "School",
+      "type": "Event",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/wdy060121contents-001-1623519583.jpg?crop=1xw:0.931840672934191xh;center,top"
     }
   ],
   "applicants": [

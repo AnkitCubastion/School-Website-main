@@ -50,7 +50,7 @@ const Recruitment = () => {
   return (
     <div>
       <h1>Recruitment Form</h1>
-      <form onSubmit={handleSubmit}>
+      <form className="rec-main-con" onSubmit={handleSubmit}>
         <label>First Name:</label>
         <input
           type="text"
@@ -87,14 +87,17 @@ const Recruitment = () => {
           required
         />
         <br />
-        <label>Resume:</label>
-        <input
-          type="file"
-          name="resume"
-          accept=".pdf,.doc,.docx"
-          onChange={handleFileChange}
-          required
-        />
+        <label>
+          Resume:
+          <input
+            type="file"
+            name="resume"
+            accept=".pdf,.doc,.docx"
+            onChange={handleFileChange}
+            required
+          />
+        </label>
+
         <br />
         <button className="btn-rec" type="submit">
           Submit
