@@ -61,7 +61,7 @@
       "parentName": "Elon",
       "parentContact": "4777888999",
       "marks": {
-        "Hindi": 0,
+        "Hindi": "90",
         "English": 0,
         "Mathematics": 0,
         "Science": 0
@@ -123,7 +123,7 @@
       "marks": {
         "Hindi": 0,
         "English": 0,
-        "Mathematics": 0,
+        "Mathematics": "80",
         "Science": 0
       },
       "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
@@ -204,7 +204,7 @@
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
-        "Science": 0
+        "Science": "94"
       },
       "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     }

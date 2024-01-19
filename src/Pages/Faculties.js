@@ -104,4 +104,4 @@ const Faculties = () => {
   );
 };
 
-export default Faculties;
+export default Faculties;  
