@@ -409,80 +409,64 @@
     {
       "id": "c1B6jGk4R8",
       "name": "6th Class",
-      "courseID": [
-        "Hindi",
-        "English",
-        "Mathematics",
-        "Science"
-      ],
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
       "classId": 6
     },
     {
       "id": "c2E7lH2U7Pq",
       "name": "7th Class",
-      "courseID": [
-        "Hindi",
-        "English",
-        "Mathematics",
-        "Science"
-      ],
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
       "classId": 7
     },
     {
       "id": "c3F8o6z7S1",
       "name": "8th Class",
-      "courseID": [
-        "Hindi",
-        "English",
-        "Mathematics",
-        "Science"
-      ],
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
       "classId": 8
     },
     {
       "id": "c4G7lH8M2O4",
       "name": "9th Class",
-      "courseID": [
-        "Hindi",
-        "English",
-        "Mathematics",
-        "Science"
-      ],
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
       "classId": 9
     },
     {
       "id": "c5K8m3N9O5",
       "name": "10th Class",
-      "courseID": [
-        "Hindi",
-        "English",
-        "Mathematics",
-        "Science"
-      ],
+      "courseID": ["Hindi", "English", "Mathematics", "Science"],
       "classId": 10
     }
   ],
   "founders": [
     {
-      "id": 1,
+      "id": "AfDHugwFSyiPyXfhRMia",
       "name": "Ankit",
       "mobile": "9997774444",
       "email": "ankit.prasad@cubastion.com",
-      "image": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+      "image": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg",
+      "about": "Ankit, the visionary Co-Founder and Chairman of our school, brings a wealth of experience and dedication to the field of education. Ankit has been a driving force behind the establishment of our institution.",
+      "achievements": "Ankit has played a pivotal role in shaping the school's educational philosophy, emphasizing innovation, inclusivity, and a student-centric approach. Under their leadership, our school has achieved numerous milestones.",
+      "philosophy": "Committed to providing quality education, Ankit believes in fostering an environment that nurtures not only academic excellence but also character development. Their passion has guided the school's mission to empower students for a lifetime of success."
     },
     {
-      "id": 2,
+      "id": "AfDHugwFSyiPyXfhRMib",
       "name": "Jayesh",
       "mobile": "9996664444",
       "email": "jayesh.chwhan@cubastion.com",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/1200px-Pierre-Person.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pierre-Person.jpg/1200px-Pierre-Person.jpg",
+      "about": "As the Co-Founder and Academic Director, Jayesh brings a deep commitment to educational excellence. He have been instrumental in shaping the school's curriculum and academic programs.",
+      "achievements": "Jayesh has led initiatives to enhance the academic rigor of our school, ensuring that students receive a well-rounded education. Their efforts have resulted and contributing to the school's reputation for academic excellence.",
+      "philosophy": "Jayesh's educational philosophy revolves around emphasizing the importance of critical thinking, creativity, and global awareness. Their dedication to fostering a culture of continuous learning has inspired both students and faculty."
     },
     {
-      "id": 3,
+      "id": "AfDHugwFSyiPyXfhRMic",
       "name": "Reshabh",
       "mobile": "9995554444",
       "email": "reshabh.sahu@cubastion.com",
-      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww",
+      "about": "Reshabh, our Co-Founder and Community Engagement Director, is a passionate advocate for community involvement and social responsibility. He have been instrumental in developing initiatives that connect the school with the broader community.",
+      "achievements": "Reshabh has spearheaded projects that have positively impacted the local community. Their commitment to social responsibility has become an integral part of the school's identity.",
+      "philosophy": "Driven by a belief in the power of education to transform lives, Reshabh champions community engagement as an essential component of the school experience. Their philosophy centers on encouraging students to become active, compassionate members of society."
     }
   ],
   "events": [],

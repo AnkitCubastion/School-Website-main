@@ -11,7 +11,7 @@ import {
   Result,
   AboutUs,
   SingleFaculty,
-  Recruitment
+  Recruitment,
 } from "./Pages";
 
 import { loader as NoticeLoader } from "../src/Pages/Notice";
@@ -22,10 +22,11 @@ import { loader as ClassLoader } from "../src/Pages/Classes";
 import { loader as SingleClassLoader } from "../src/Pages/SingleClasses";
 import { loader as SingleStudentLoader } from "../src/Pages/SingleStudent";
 import { SingleClasses } from "./Pages/SingleClasses";
-import {loader as SingleFacultyLoader} from "./Pages/SingleFaculty";
+import { loader as SingleFacultyLoader } from "./Pages/SingleFaculty";
 import { Students } from "./Pages/Students";
 import { SingleStudent } from "./Pages/SingleStudent";
-import {loader as ResultLoader} from "./Pages/Result";
+import { loader as ResultLoader } from "./Pages/Result";
+import FounderDescription from "./Component/FounderDescription";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -83,7 +84,7 @@ const router = createBrowserRouter([
         path: "results",
         element: <Result />,
         errorElement: <Error />,
-        loader:ResultLoader
+        loader: ResultLoader,
       },
       {
         path: "about",
@@ -92,7 +93,12 @@ const router = createBrowserRouter([
       },
       {
         path: "recruitment",
-        element: <Recruitment/>,
+        element: <Recruitment />,
+        errorElement: <Error />,
+      },
+      {
+        path: "founders/:id",
+        element: <FounderDescription />,
         errorElement: <Error />,
       },
     ],

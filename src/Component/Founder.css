@@ -41,3 +41,8 @@ h1 {
   justify-content: space-evenly;
   gap: 20px;
 }
+
+.founder-link {
+  text-decoration: none;
+  color: inherit;
+}
