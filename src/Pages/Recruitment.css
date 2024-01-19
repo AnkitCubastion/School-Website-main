@@ -1,0 +1,25 @@
+.btn-rec {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 30%;
+  width: 40%;
+  border-radius: 1rem;
+}
+
+.btn-rec:hover {
+  background-color: #0056b3;
+}
+
+.rec-main-con {
+  text-align: center;
+  justify-content: center;
+  label {
+    width: 50%;
+    margin-left: 25%;
+  }
+  input {
+    width: 50%;
+    margin-left: 25%;
+  }
+}

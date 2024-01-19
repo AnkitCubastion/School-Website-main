@@ -1,15 +1,15 @@
 import React from "react";
 import { useState } from "react";
 import { SubmitBtn, FeildInput } from "../Component";
-import { Link,useNavigate } from "react-router-dom";
-import {toast} from "react-toastify";
-import {userFetch} from "../Utils"
+import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import { userFetch } from "../Utils";
 
 const images = [
   "https://i.imgur.com/LDOO4Qs.jpg",
   "https://i.imgur.com/DTfowdu.jpg",
   "https://i.imgur.com/yhW6Yw1.jpg",
-]
+];
 
 const Register = () => {
   let [name, setName] = useState("");
@@ -77,34 +77,32 @@ const Register = () => {
     setVal(e.target.value);
   };
 
-
   let obj = {
-    name,email,password,avatar:images[Math.floor(Math.random()*(3))],role:val
-  }
-
-  const registerEvent = async() => {
-    if (validate()) {
-      console.log(obj);
-      
-  try{
-    const response = await userFetch.post("/users/",obj);
-    console.log(response);
-    toast.success("user succesfully registered");
-    navigate("/login");
-  }
-  catch(error){
-    let arr = error.response.data.message ;
-    console.log(arr);
-    for(let el of arr){
-      toast.error(el);
-    }
-  }
-    }
+    name,
+    email,
+    password,
+    avatar: images[Math.floor(Math.random() * 3)],
+    role: val,
   };
 
+  const registerEvent = async () => {
+    if (validate()) {
+      console.log(obj);
 
-
-
+      try {
+        const response = await userFetch.post("/users/", obj);
+        console.log(response);
+        toast.success("user succesfully registered");
+        navigate("/login");
+      } catch (error) {
+        let arr = error.response.data.message;
+        console.log(arr);
+        for (let el of arr) {
+          toast.error(el);
+        }
+      }
+    }
+  };
 
   return (
     <>

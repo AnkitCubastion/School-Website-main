@@ -1,7 +1,7 @@
 import React from "react";
 import { customFetch } from "../Utils";
 import { useLoaderData } from "react-router-dom";
-import {StudentCard} from "../Component";
+import { StudentCard } from "../Component";
 
 export const loader = async ({ params }) => {
   const { id } = params;
@@ -11,10 +11,10 @@ export const loader = async ({ params }) => {
 };
 
 const SingleFaculty = () => {
-  const { teacher, students } = useLoaderData();
-  const { subject, phone, name, image, id, email, classId } = teacher;
+  let { teacher, students } = useLoaderData();
+  let { subject, phone, name, image, id, email, classId } = teacher;
 
-  const newStudents = students.filter((student) => {
+  let newStudents = students.filter((student) => {
     return student.classId === classId;
   });
 
@@ -38,9 +38,16 @@ const SingleFaculty = () => {
             <div className="student-list">
               <h1>Students</h1>
               <div className="student-list-container">
-              {newStudents.map((student)=>{
-                return <StudentCard key={student.id} {...student} subject={subject} />
-              })}
+                {newStudents.map((student) => {
+                  return (
+                    <StudentCard
+                      key={student.id}
+                      {...student}
+                      subject={subject}
+                      teacher={name}
+                    />
+                  );
+                })}
               </div>
             </div>
           ) : (

@@ -184,7 +184,7 @@ const Admission = () => {
           />
         </div>
 
-        <button className="btn btn-success" type="submit">
+        <button className=" btn btn-success admission-button" type="submit">
           Submit
         </button>
       </form>
