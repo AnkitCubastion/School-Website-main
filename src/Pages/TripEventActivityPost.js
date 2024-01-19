@@ -119,7 +119,7 @@ const TripEventActivityPost = () => {
           </select>
         </div>
 
-        <button className="btn btn-success" type="submit">
+        <button className=" btn btn-success  t-e-a-p-btn" type="submit">
           Submit
         </button>
       </form>

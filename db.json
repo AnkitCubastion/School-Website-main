@@ -61,7 +61,7 @@
       "parentName": "Elon",
       "parentContact": "4777888999",
       "marks": {
-        "Hindi": 0,
+        "Hindi": "90",
         "English": 0,
         "Mathematics": 0,
         "Science": 0
@@ -123,7 +123,7 @@
       "marks": {
         "Hindi": 0,
         "English": 0,
-        "Mathematics": 0,
+        "Mathematics": "80",
         "Science": 0
       },
       "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
@@ -204,7 +204,7 @@
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
-        "Science": 0
+        "Science": "94"
       },
       "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     }
@@ -415,31 +415,56 @@
     {
       "id": "c1B6jGk4R8",
       "name": "6th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 6
     },
     {
       "id": "c2E7lH2U7Pq",
       "name": "7th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 7
     },
     {
       "id": "c3F8o6z7S1",
       "name": "8th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 8
     },
     {
       "id": "c4G7lH8M2O4",
       "name": "9th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 9
     },
     {
       "id": "c5K8m3N9O5",
       "name": "10th Class",
-      "courseID": ["Hindi", "English", "Mathematics", "Science"],
+      "courseID": [
+        "Hindi",
+        "English",
+        "Mathematics",
+        "Science"
+      ],
       "classId": 10
     }
   ],

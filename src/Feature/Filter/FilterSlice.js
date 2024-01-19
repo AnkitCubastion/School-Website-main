@@ -14,7 +14,7 @@ const filterSlice = createSlice({
             const {movie} = action.payload;
             state.teachName = movie;
         },
-        setSubName:(state,action)=>{
+        setSubName:(state,action)=>{ 
             const {genre} = action.payload;
             state.subName = genre;
         },

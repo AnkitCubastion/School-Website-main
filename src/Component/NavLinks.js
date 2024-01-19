@@ -8,6 +8,7 @@ const links = [
   { id: 4, url: "/results", text: "Result" },
   { id: 5, url: "/about", text: "AboutUs" },
   { id: 6, url: "/notices", text: "Notices" },
+  { id: 7, url: "/recruitment", text: "Recruitment"},
 ];
 
 const NavLinks = () => {
