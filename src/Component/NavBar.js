@@ -12,7 +12,7 @@ const NavBar = () => {
           {/*Title */}
           <NavLink
             to="/"
-            className="navbar-brand d-none d-lg-flex btn btn-success text-3xl"
+            className="navbar-brand d-none d-lg-flex btn btn-success text-3xl custom-brand"
           >
             E-School
           </NavLink>
@@ -51,15 +51,14 @@ const NavBar = () => {
           <div className="navbar-end">
             {/*Theme Icons*/}
 
-            {/*Cart Links*/}
-            <NavLink
+            {/*Cart Links              <NavLink
               to="/profile"
               className="btn btn-ghost btn-circle btn-md ml-4"
             >
               <div className="indicator">
                 <CgProfile />
               </div>
-            </NavLink>
+            </NavLink>   */}
           </div>
         </div>
       </nav>

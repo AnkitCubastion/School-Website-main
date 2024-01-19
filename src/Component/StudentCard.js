@@ -3,12 +3,12 @@ import {useDispatch} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import { setStudent } from '../Feature/Result/ResultSlice';
 
-const StudentCard = ({age,classId,id,image,marks,name,userId,subject}) => {
+const StudentCard = ({age,classId,id,image,marks,name,userId,subject,teacher}) => {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const obj = {age,classId,id,image,marks,name,userId,subject};
+  const obj = {age,classId,id,image,marks,name,userId,subject,teacher};
 
   const AddStudentMarks = () => {
     dispatch(setStudent({data:obj}));

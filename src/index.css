@@ -233,11 +233,13 @@ code {
   width:30rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
 }
 .single-image{
   border-radius: 1.5rem;
+  width:275px;
+  height:183px;
 }
 .movie-director{
   text-transform: capitalize;
@@ -427,7 +429,7 @@ code {
 
 .student-list-container{
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill,minmax(400px, 1fr));
   gap: 3rem;
 
 }
