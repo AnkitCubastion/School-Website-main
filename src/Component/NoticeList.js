@@ -2,13 +2,14 @@ import React,{useState} from 'react'
 import {AiOutlineMinus,AiOutlinePlus} from "react-icons/ai";
 import {customFetch} from "../Utils";
 import {toast} from "react-toastify";
+import {useSelector} from "react-redux";
 
 const NoticeList = ({content,date,id,title}) => {
 
     let [show,setShow] = useState(false);
-
-
+    const { user } = useSelector((store) => store.userState);
     const deleteReview = async (id) => {
+      if(user?.role === "admin"){
         try {
           const response = await customFetch.delete(`/notices/${id}`);
           console.log(response);
@@ -18,6 +19,10 @@ const NoticeList = ({content,date,id,title}) => {
           console.log(error);
           toast.error(error?.message);
         }
+      }
+      else if (user?.role === "customer"){
+        toast.error("Only Admins can delete notices");
+      }
       };
 
     const newDate = date.split("-");
