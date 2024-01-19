@@ -1,7 +1,7 @@
-import React from 'react'
-import { customFetch } from '../Utils';
-import { useLoaderData } from 'react-router';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { customFetch } from "../Utils";
+import { useLoaderData } from "react-router";
+import { Link } from "react-router-dom";
 
 export const loader = async () => {
   const res = await customFetch.get("/student");
@@ -10,7 +10,7 @@ export const loader = async () => {
 };
 
 export const Students = () => {
-  const {allStudents} =useLoaderData();
+  const { allStudents } = useLoaderData();
   // console.log(allStudents);
   return (
     <div className="container mt-4">
@@ -19,7 +19,10 @@ export const Students = () => {
       <div className="row mt-4">
         {allStudents.map((student) => (
           <div key={student.id} className="col-md-4">
-            <Link to={`/students/${student.id}`} className="card-link text-decoration-none">
+            <Link
+              to={`/students/${student.id}`}
+              className="card-link text-decoration-none"
+            >
               <div className="card mb-4">
                 <img
                   src={student.image}
@@ -52,4 +55,4 @@ export const Students = () => {
       </div>
     </div>
   );
-}
+};

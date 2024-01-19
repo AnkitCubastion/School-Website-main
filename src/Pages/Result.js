@@ -46,8 +46,7 @@ const Result = () => {
 
   const searchFun = () => {
     let newArr = filteredState.filter((student) => {
-
-      console.log(1,searchRes,sortRes,classNum);
+      console.log(1, searchRes, sortRes, classNum);
 
       const firstName = student.name.split(" ")[0];
       const lastName = student.name.split(" ")[1];
@@ -83,9 +82,7 @@ const Result = () => {
           ? 1
           : -1;
       });
-    }
-
-    else if (sortRes === "high"){
+    } else if (sortRes === "high") {
       newArr = [...newArr].sort(function (a, b) {
         return a?.marks?.English +
           a?.marks?.Hindi +
@@ -108,7 +105,6 @@ const Result = () => {
     dispatch(setSortRes({ sort: "" }));
     setFilteredState(students);
   };
-
 
   return (
     <>

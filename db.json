@@ -583,6 +583,33 @@
       "location": "Delhi",
       "type": "Event",
       "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-04/27/full/1524814612-1299.jpg"
+    },
+    {
+      "id": "817f",
+      "title": "Independence Day",
+      "description": "Independence Day in School Campus",
+      "date": "2024-08-15",
+      "location": "School Campus",
+      "type": "Event",
+      "image": "https://d20x1nptavktw0.cloudfront.net/wordpress_media/2022/08/Blog-Image-14.jpg"
+    }
+  ],
+  "applicants": [
+    {
+      "id": "47dc",
+      "firstName": "Ankit",
+      "lastName": "Ankit",
+      "email": "ankit@gmail.com",
+      "phoneNumber": "9998888777",
+      "resume": {}
+    },
+    {
+      "id": "4ea1",
+      "firstName": "Elon",
+      "lastName": "Musk",
+      "email": "elon.musk@gmail.com",
+      "phoneNumber": "1234567890",
+      "resume": {}
     }
   ]
 }

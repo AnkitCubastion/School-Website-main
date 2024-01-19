@@ -8,9 +8,8 @@ import Admission from "./Admission";
 const Landing = () => {
   return (
     <>
-      <LandingCarousel/>
+      <LandingCarousel />
       <Founder />
-      
       <TripEventActivityPost />
       <TripEventActivity />
       <Admission />

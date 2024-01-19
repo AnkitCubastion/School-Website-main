@@ -1,7 +1,7 @@
 import React from "react";
 import { customFetch } from "../Utils";
 import { useLoaderData } from "react-router-dom";
-import {StudentCard} from "../Component";
+import { StudentCard } from "../Component";
 
 export const loader = async ({ params }) => {
   const { id } = params;
@@ -38,9 +38,16 @@ const SingleFaculty = () => {
             <div className="student-list">
               <h1>Students</h1>
               <div className="student-list-container">
-              {newStudents.map((student)=>{
-                return <StudentCard key={student.id} {...student} subject={subject} teacher={name} />
-              })}
+                {newStudents.map((student) => {
+                  return (
+                    <StudentCard
+                      key={student.id}
+                      {...student}
+                      subject={subject}
+                      teacher={name}
+                    />
+                  );
+                })}
               </div>
             </div>
           ) : (
