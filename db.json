@@ -11,212 +11,202 @@
     {
       "id": "j2nWq0k8LQ",
       "name": "John Doe",
-      "age": 15,
-      "classId": 6,
-      "userId": "nK9bXq5rYz",
+      "age": 16,
+      "classId": 10,
+      "contactNumber": "9998887776",
+      "email": "john.doe@gmail.com",
+      "dateOfBirth": "2007-01-15",
+      "gender": "Male",
+      "address": "Magnum Tower",
+      "parentName": "John",
+      "parentContact": "6777888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://thumbs.dreamstime.com/b/smiling-boy-student-high-school-portrait-33063142.jpg"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "xYz9q3pAeA",
       "name": "Alice Smith",
-      "age": 14,
-      "classId": 6,
-      "userId": "nK9bXq5rYz",
+      "age": 15,
+      "classId": 9,
+      "contactNumber": "9998887775",
+      "email": "alice.smith@gmail.com",
+      "dateOfBirth": "2008-02-11",
+      "gender": "Male",
+      "address": "Vatika Tech Park",
+      "parentName": "Joe",
+      "parentContact": "5777888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://www.womenio.com/wp-content/uploads/2021/09/Being-Single-in-High-School.jpg"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "oP9oZkU2Gh",
       "name": "Bob Johnson",
-      "age": 16,
-      "classId": 6,
-      "userId": "nK9bXq5rYz",
+      "age": 14,
+      "classId": 8,
+      "contactNumber": "9998887774",
+      "email": "bob.johnson@gmail.com",
+      "dateOfBirth": "2009-03-12",
+      "gender": "Male",
+      "address": "Vatika Tech Park",
+      "parentName": "Elon",
+      "parentContact": "4777888999",
       "marks": {
-        "Hindi": 0,
+        "Hindi": "90",
         "English": 0,
-        "Mathematics": "77",
+        "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://image1.masterfile.com/getImage/NjMwLTA3MDcxNzg1ZW4uMDAwMDAwMDA=AK8I9d/630-07071785en_Masterfile.jpg"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "h7Pq5tT8Gc",
       "name": "Emma Brown",
-      "age": 15,
+      "age": 13,
       "classId": 7,
-      "userId": "sS3Gq6F2bR",
+      "contactNumber": "9998887773",
+      "email": "bob.johnson@gmail.com",
+      "dateOfBirth": "2010-04-13",
+      "gender": "Female",
+      "address": "Huda City",
+      "parentName": "Musk",
+      "parentContact": "3777888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://timesofindia.indiatimes.com/photo/104889832/104889832.jpg"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "wX5rYz9qTg",
       "name": "David White",
-      "age": 14,
-      "classId": 7,
-      "userId": "rYz9q3pAxY",
+      "age": 12,
+      "classId": 6,
+      "contactNumber": "9998887772",
+      "email": "david.white@gmail.com",
+      "dateOfBirth": "2011-05-14",
+      "gender": "Male",
+      "address": "Cyber City",
+      "parentName": "Emma",
+      "parentContact": "2777888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZYem5bgC6sCgriwlG8FeIvtkY91t3hDWUA&usqp=CAU"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "pAeA3p9qXz",
       "name": "Sophia Miller",
-      "age": 16,
-      "classId": 7,
-      "userId": "oP9oZkU2Gh",
+      "age": 12,
+      "classId": 6,
+      "contactNumber": "9998887771",
+      "email": "sophia.miller@gmail.com",
+      "dateOfBirth": "2011-06-15",
+      "gender": "Female",
+      "address": "Toy City",
+      "parentName": "David",
+      "parentContact": "1777888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
-        "Mathematics": 0,
+        "Mathematics": "80",
         "Science": 0
       },
-      "image": "https://i0.wp.com/hechingerreport.org/wp-content/uploads/2023/07/Joseph-Bui-yoder-state-takeovers_24-scaled.jpg?fit=1200%2C800&ssl=1"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "lK8LQF7nW6",
       "name": "Oliver Davis",
-      "age": 15,
-      "classId": 8,
-      "userId": "aGh23RtVb",
+      "age": 13,
+      "classId": 7,
+      "contactNumber": "9998887770",
+      "email": "oliver.davis@gmail.com",
+      "dateOfBirth": "2010-07-16",
+      "gender": "Female",
+      "address": "Aero City",
+      "parentName": "Sophia",
+      "parentContact": "0777888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://qph.cf2.quoracdn.net/main-thumb-147481624-200-agklstkxcftpsqxmoaqaqjgonwgxjfbc.jpeg"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "yRz9q3pAeK",
       "name": "Ava Wilson",
       "age": 14,
       "classId": 8,
-      "userId": "bXq5rYz9qT",
+      "contactNumber": "9998887760",
+      "email": "ava.wilson@gmail.com",
+      "dateOfBirth": "2009-08-17",
+      "gender": "Female",
+      "address": "Sector 52",
+      "parentName": "Oliver",
+      "parentContact": "0677888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCaGwXu8RB8fOK-Q3SCgFlP_fDcqFd2KjKg&usqp=CAU"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "oZkU2Gh7Pq",
       "name": "Ethan Clark",
-      "age": 16,
-      "classId": 8,
-      "userId": "z9q3pAeA3p",
+      "age": 15,
+      "classId": 9,
+      "contactNumber": "9998887761",
+      "email": "ethan.clark@gmail.com",
+      "dateOfBirth": "2008-09-18",
+      "gender": "Male",
+      "address": "Sector 52",
+      "parentName": "Ava",
+      "parentContact": "1677888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
         "Science": 0
       },
-      "image": "https://thumbs.dreamstime.com/z/high-school-student-hallway-classmates-background-33015496.jpg"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     },
     {
       "id": "T8GcS1Lk5R",
       "name": "Liam Taylor",
-      "age": 15,
-      "classId": 9,
-      "userId": "sS3Gq6F2bR",
-      "marks": {
-        "Hindi": 0,
-        "English": 0,
-        "Mathematics": 0,
-        "Science": 0
-      },
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4KG_-2hP4fo2sBGucPHOrBtfuNaLTP8YBw&usqp=CAU"
-    },
-    {
-      "id": "q5yR4Lk8A1",
-      "name": "Mia Moore",
-      "age": 14,
-      "classId": 9,
-      "userId": "i9oZkU2Gh7",
-      "marks": {
-        "Hindi": 0,
-        "English": 0,
-        "Mathematics": 0,
-        "Science": 0
-      },
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusik0-9V23zamcjmo1A5dHTjAR9g1-16mSQ&usqp=CAU"
-    },
-    {
-      "id": "kU2Gh7Pq5t",
-      "name": "Noah Davis",
-      "age": 16,
-      "classId": 9,
-      "userId": "u2Gh7Pq5tT",
-      "marks": {
-        "Hindi": 0,
-        "English": 0,
-        "Mathematics": 0,
-        "Science": 0
-      },
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9qerW2zgDX4T1jL7XMkSo4siMDb35nANLg&usqp=CAU"
-    },
-    {
-      "id": "aLk5Rz9qXz",
-      "name": "Isabella Jones",
-      "age": 15,
-      "classId": 10,
-      "userId": "lK8LQF7nW6",
-      "marks": {
-        "Hindi": 0,
-        "English": 0,
-        "Mathematics": 0,
-        "Science": 0
-      },
-      "image": "https://english.mathrubhumi.com/image/contentid/policy:1.8514619:1691127392/Plus%20one%20students%20(1).jpg?$p=a0f26b3&f=1x1&w=1080&q=0.8"
-    },
-    {
-      "id": "xYz9q3pAeW",
-      "name": "Elijah Brown",
-      "age": 14,
-      "classId": 10,
-      "userId": "sS3Gq6F2bR",
-      "marks": {
-        "Hindi": 0,
-        "English": 0,
-        "Mathematics": 0,
-        "Science": 0
-      },
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwSFayKUQpvewFrIrsYrj2AEDyXJChO4mKQ&usqp=CAU"
-    },
-    {
-      "id": "kW8A1Lk6q3",
-      "name": "Avery Miller",
       "age": 16,
       "classId": 10,
-      "userId": "tT8GcS1Lk5",
+      "contactNumber": "9998887762",
+      "email": "ethan.clark@gmail.com",
+      "dateOfBirth": "2007-09-18",
+      "gender": "Female",
+      "address": "Sector 52",
+      "parentName": "Ava",
+      "parentContact": "2677888999",
       "marks": {
         "Hindi": 0,
         "English": 0,
         "Mathematics": 0,
-        "Science": 0
+        "Science": "94"
       },
-      "image": "https://i.guim.co.uk/img/media/efd4da1dc87c468315029c7d8516d743080012d1/0_48_2160_1608/master/2160.jpg?width=465&dpr=1&s=none"
+      "image": "https://cdn5.vectorstock.com/i/1000x1000/49/49/student-graduated-avatar-isolated-vector-11224949.jpg"
     }
   ],
   "teacher": [
@@ -558,6 +548,41 @@
       "name": "Jayesh",
       "email": "jayeshchawhan18121@gmail.com",
       "message": "your school is nice"
+    },
+    {
+      "id": "9320",
+      "name": "Aashif",
+      "email": "ashitpalai1206@gmail.com",
+      "message": "Know about admission."
+    }
+  ],
+  "tripEventActivityPost": [
+    {
+      "id": "db4b",
+      "title": "Kashmir Trip",
+      "description": "Kashmir Trip via Flight",
+      "date": "2024-06-17",
+      "location": "Jammu and Kashmir",
+      "type": "Trip",
+      "image": "https://images.unsplash.com/photo-1584732200355-486a95263014?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "f440",
+      "title": "Cultural Activity",
+      "description": "Cultural Activity in School main ground",
+      "date": "2024-08-15",
+      "location": "School Campus",
+      "type": "Activity",
+      "image": "https://www.oakridge.in/wp-content/uploads/2020/09/1_Cultural-Activities-1.jpg"
+    },
+    {
+      "id": "4bbb",
+      "title": "Republic Day",
+      "description": "Republic Day at Red Fort",
+      "date": "2024-01-26",
+      "location": "Delhi",
+      "type": "Event",
+      "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-04/27/full/1524814612-1299.jpg"
     }
   ]
 }

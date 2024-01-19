@@ -39,6 +39,7 @@ const Result = () => {
       })
     );
     console.log(res);
+    window.location.reload();
     toast.success("Marks added Succesfully");
   };
 
