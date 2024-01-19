@@ -74,11 +74,11 @@ const Login = () => {
         toast.success(`${res.data.name} logged succesfully`);
       } catch (error) {
         let arr = error.response.data;
-      console.log(error);
-      if(arr.statusCode === 401){
-        console.log(arr.message)
-        toast.error("wrong email id or password");
-      }
+        console.log(error);
+        if (arr.statusCode === 401) {
+          console.log(arr.message);
+          toast.error("wrong email id or password");
+        }
       }
     }
   };

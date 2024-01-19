@@ -1,0 +1,11 @@
+.btn-rec {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.btn-rec:hover {
+  background-color: #0056b3;
+}

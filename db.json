@@ -593,5 +593,15 @@
       "type": "Event",
       "image": "https://d20x1nptavktw0.cloudfront.net/wordpress_media/2022/08/Blog-Image-14.jpg"
     }
+  ],
+  "applicants": [
+    {
+      "id": "47dc",
+      "firstName": "Ankit",
+      "lastName": "Ankit",
+      "email": "ankit@gmail.com",
+      "phoneNumber": "9998888777",
+      "resume": {}
+    }
   ]
 }
