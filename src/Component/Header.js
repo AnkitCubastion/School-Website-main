@@ -22,7 +22,7 @@ const Header = () => {
           {user?.name ? (
             <div className="d-flex gap-4">
               <div className="link link-hover text-sm custom-link">
-                Hello {user?.role === "customer" ? "User" : "Admin"} , {user?.name}
+                Hello {user?.role === "customer" ? "Student" : "Admin"} , {user?.name}
               </div>
               <button className="btn btn-danger" onClick={handleLogout}>
                 Logout
